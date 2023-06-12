@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    min-height: 88vh;
+    line-height: 2.5;
+    border-left: 0.2rem solid black;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+.main-header {
+    margin: 1rem auto;
+    padding: 1rem 1rem 0.5rem 1rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    box-shadow: 0.2rem 0.3rem black;
+    border-radius: 40% 40% 10% 10%;
+    width: 93%;
+    cursor: pointer;
+}
+
+.main-header:hover {
+    box-shadow: 0.3rem 0.4rem black;
+    text-shadow: 0.1rem 0.05rem;
+    color: aqua;
+}
+
+.main-header:active {
+    box-shadow: 0.1rem 0.1rem black;
+}
+
+.main-header.active::after {
+    content: "-";
+    float: right;
+}
+
+.main-header::after {
+    content: "+";
+    float: right;
+}
+
+.main-info-container {
+    width: 90%;
+    margin: 0 2rem;
+    max-height: 100%;
+
+}
+
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.main-info-cell {
+    margin: 0.8rem;
+}
+
+.main-info-period {
+    font-family: 'Date Font', Arial, Helvetica, sans-serif;
+}
+
+button {
+    width: 2.4rem;
+    height: 2rem;
+    margin-right: 5%;
+    margin-top: 1%;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 40%;
+    border: solid 0.1px;
+    box-shadow: 0.1rem 0.05rem rgb(30, 29, 29);
+}
+
+button:hover {
+    font-weight: 600;
+    border: solid 1.5px;
+}
+
+button:active {
+    font-weight: 700;
+    border-radius: 50%;
+    border: solid 2px;
+    box-shadow: 0.2rem 0.1rem rgb(16, 16, 16);
+}

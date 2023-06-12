@@ -1,0 +1,48 @@
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0.3rem 0.1rem 0 0.8rem;
+    width: 90%;
+}
+
+.bar div {
+    width: 20%;
+    border: 0.01rem solid;
+    color: yellow;
+}
+
+.scale {
+    width: 90%;
+    border: 0.01rem solid;
+    margin: 0.3rem 0.1rem 0 0.8rem;
+}
+
+#Russian {
+    text-align: right;
+    border: 0.1rem solid;
+    background-color: orange;
+    color: yellow;
+    padding-right: 0.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .bar {
+        margin: 0.2rem 0.1rem 0.4rem 0.3rem;
+    }
+
+    .scale {
+        margin: 0.2rem 0.1rem 0.4rem 0.3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .bar {
+        margin: 0.2rem 0.1rem 0.4rem 0.3rem;
+    }
+
+    .scale {
+        margin: 0.2rem 0.1rem 0.4rem 0.3rem;
+    }
+}
