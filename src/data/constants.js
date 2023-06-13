@@ -30,13 +30,7 @@ const myProfile = {
     },
     app_skills: {
       title: "Знание ПО",
-      content: [
-        "Microsoft Word",
-        "Microsoft Excel",
-        "Autocad Map",
-        "Autocad Overlay",
-        "Adobe Photoshop",
-      ],
+      content: ["Microsoft office", "Autocad", "Adobe Photoshop"],
     },
     education: {
       title: "Образование",
@@ -53,7 +47,7 @@ const myProfile = {
         },
         {
           period: "2022 г.- 2023 г.",
-          establishment: "SkillFactory курсы",
+          establishment: "SkillFactory курсы, Fullstack Python разработчик.",
         },
       ],
     },
@@ -111,13 +105,7 @@ const myProfile = {
     },
     app_skills: {
       title: "Application usage",
-      content: [
-        "Microsoft Word",
-        "Microsoft Excel",
-        "Autocad Map",
-        "Autocad Overlay",
-        "Adobe Photoshop",
-      ],
+      content: ["Microsoft Office", "Autocad", "Adobe Photoshop"],
     },
     education: {
       title: "Education",
@@ -134,7 +122,7 @@ const myProfile = {
         },
         {
           period: "2022 г.- 2023 г.",
-          establishment: "SkillFactory courses",
+          establishment: "SkillFactory courses, Fullstack Python developer.",
         },
       ],
     },

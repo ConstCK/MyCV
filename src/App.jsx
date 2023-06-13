@@ -5,8 +5,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import Main from "./components/Main.jsx";
 import store from "./redux/store.js";
 
-function App() {
-  // const currentLanguage = store.getState().language;
+function App() {  
   return (
     <React.Fragment>
       <Header />
