@@ -143,7 +143,7 @@ const myProfile = {
         experience i hope to get a position of Junior developer in IT company.\
         I have a biggest desire to gain new knowledge and be useful as a coder.\
         Also i have a little experience of system adninistration. I will be\
-        glad to get get a full time job remotely",
+        glad to get get a full time job remotely.",
     },
   },
 };
