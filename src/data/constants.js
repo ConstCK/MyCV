@@ -18,25 +18,11 @@ const myProfile = {
     },
     coding_details: {
       title: "Детали",
-      content: [
-        "Django",
-        "Tkinter",
-        "React",
-        "Redux",
-        "Celery",
-        "Git",
-        "Docker",
-      ],
+      content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
     },
     app_skills: {
       title: "Знание ПО",
-      content: [
-        "Microsoft Word",
-        "Microsoft Excel",
-        "Autocad Map",
-        "Autocad Overlay",
-        "Adobe Photoshop",
-      ],
+      content: ["Microsoft office", "Autocad", "Adobe Photoshop"],
     },
     education: {
       title: "Образование",
@@ -53,7 +39,7 @@ const myProfile = {
         },
         {
           period: "2022 г.- 2023 г.",
-          establishment: "SkillFactory курсы",
+          establishment: "SkillFactory курсы, Fullstack Python разработчик.",
         },
       ],
     },
@@ -69,12 +55,20 @@ const myProfile = {
           period: "2005 г.- 2012 г.",
           establishment: "ООО «КАВКАЗЗЕМПРОЕКТ», директор.",
         },
+        {
+          period: "2012 - Настоящее время",
+          establishment: "Самозанятый",
+        },
       ],
     },
     about: {
       title: "О себе",
       content:
-        "Программированием увлекаюсь с юношеских лет и, несмотря на отсутствия опыта работы в этой сфере, надеюсь получить должность Junior разработчика в IT компании. У меня есть огромное желание работать в качестве программиста и получать новые знания. Имеется небольшой опыт системного администрирования.",
+        "Программированием увлекаюсь с юношеских лет и, несмотря на отсутствия опыта\
+        работы в этой сфере, надеюсь получить должность Junior разработчика в IT\
+        компании.У меня есть огромное желание работать в качестве программиста и\
+        получать новые знания.Имеется небольшой опыт системного администрирования.\
+        Буду рад получить полную занятость на удаленной работе.",
     },
   },
   en: {
@@ -99,42 +93,28 @@ const myProfile = {
     },
     coding_details: {
       title: "Coding skills details",
-      content: [
-        "Django",
-        "Tkinter",
-        "React",
-        "Redux",
-        "Celery",
-        "Git",
-        "Docker",
-      ],
+      content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
     },
     app_skills: {
       title: "Application usage",
-      content: [
-        "Microsoft Word",
-        "Microsoft Excel",
-        "Autocad Map",
-        "Autocad Overlay",
-        "Adobe Photoshop",
-      ],
+      content: ["Microsoft Office", "Autocad", "Adobe Photoshop"],
     },
     education: {
       title: "Education",
       info: [
         {
-          period: "1993 г.- 1998 г.",
+          period: "1993 - 1998 ",
           establishment:
             "Sochi Univercity Of Recreation And Tourism, 'World economy' speciality.",
         },
         {
-          period: "1998 г.- 2000 г.",
+          period: "1998 - 2000 ",
           establishment:
             "Europa College, Nicosia, Cyprus, 'Hotel Management' speciality.",
         },
         {
-          period: "2022 г.- 2023 г.",
-          establishment: "SkillFactory courses",
+          period: "2022 - 2023 ",
+          establishment: "SkillFactory courses, Fullstack Python developer.",
         },
       ],
     },
@@ -142,20 +122,28 @@ const myProfile = {
       title: "Employment history",
       info: [
         {
-          period: "2001 г.- 2005 г.",
+          period: "2001 - 2005 ",
           establishment:
             "Project&Recearch expedition of Russian Academy of Agricultural Sciences, engineer.",
         },
         {
-          period: "2005 г.- 2012 г.",
+          period: "2005 - 2012 ",
           establishment: "ООО «КАВКАЗЗЕМПРОЕКТ», director.",
+        },
+        {
+          period: "2012 - Current time",
+          establishment: "Self-employed",
         },
       ],
     },
     about: {
       title: "Personal info",
       content:
-        "I am fond of coding since teenaging and despite the lack of programming experience i hope to get a position of Junior developer in IT company. I have a biggest desire to gain new knowledge and be useful as a coder. Also i have a little experience of system adninistration.",
+        "I am fond of coding since teenaging and despite the lack of programming\
+        experience i hope to get a position of Junior developer in IT company.\
+        I have a biggest desire to gain new knowledge and be useful as a coder.\
+        Also i have a little experience of system adninistration. I will be\
+        glad to get get a full time job remotely.",
     },
   },
 };
