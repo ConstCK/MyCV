@@ -47,12 +47,14 @@
     width: 90%;
     margin: 0 2rem;
     max-height: 100%;
+    transition: all 0.7s ease-in-out;
 
 }
 
 .hidden {
     max-height: 0;
     overflow: hidden;
+
 }
 
 .main-info-cell {

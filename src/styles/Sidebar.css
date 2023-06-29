@@ -39,7 +39,9 @@
 
 .sidebar-container {
     width: 85%;
+    max-height: 100%;
     margin: 0.8rem 1rem;
+    transition: all 0.7s ease-in-out;
 }
 
 .hidden {
