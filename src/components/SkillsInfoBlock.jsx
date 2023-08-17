@@ -28,10 +28,6 @@ function SkillsInfoBlock(props) {
           return (
             <div key={el} className="skills-cell info">
               <div className="skills-detail">{el}</div>
-              {(props.data.title == "Навыки" ||
-                props.data.title == "Coding skills") && (
-                <div className="stars">★★★✰✰</div>
-              )}
             </div>
           );
         })}

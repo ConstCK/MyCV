@@ -7,30 +7,25 @@ const myProfile = {
     contacts: {
       title: "Контакты",
       tel: "+7(967)321-32-91",
-      whatsapp: "+7(967)321-32-91",
+      telegram: "https://t.me/Constantin_CK",
       mail: "Constantin_CK@outlook.com",
       git: "https://github.com/ConstCK",
     },
     languages: { title: "Языки", content: ["Английский", "Русский"] },
     coding_skills: {
       title: "Навыки",
-      content: ["Python", "JavaScript", "HTML", "CSS"],
+      content: ["Python", "JavaScript", "HTML", "CSS", "SQL"],
     },
     coding_details: {
       title: "Детали",
       content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
     },
-    app_skills: {
-      title: "Знание ПО",
-      content: ["Microsoft office", "Autocad", "Adobe Photoshop"],
-    },
     education: {
       title: "Образование",
       info: [
         {
-          period: "1993 г.- 1998 г.",
-          establishment:
-            "Сочинский Государственный Университет Туризма и Курортного дела, специальность «Мировая экономика».",
+          period: "2022 г.- 2023 г.",
+          establishment: "SkillFactory курсы, Fullstack Python разработчик.",
         },
         {
           period: "1998 г.- 2000 г.",
@@ -38,8 +33,9 @@ const myProfile = {
             "Europa College, Nicosia, Cyprus, специальность 'Hotel Management'.",
         },
         {
-          period: "2022 г.- 2023 г.",
-          establishment: "SkillFactory курсы, Fullstack Python разработчик.",
+          period: "1993 г.- 1998 г.",
+          establishment:
+            "Сочинский Государственный Университет Туризма и Курортного дела, специальность «Мировая экономика».",
         },
       ],
     },
@@ -47,17 +43,17 @@ const myProfile = {
       title: "Опыт работы",
       info: [
         {
-          period: "2001 г.- 2005 г.",
-          establishment:
-            "Проектно-изыскательская экспедиция Российской академии сельскохозяйственных наук, инженер.",
+          period: "2012 - Настоящее время",
+          establishment: "Работа над собственными проектами",
         },
         {
           period: "2005 г.- 2012 г.",
           establishment: "ООО «КАВКАЗЗЕМПРОЕКТ», директор.",
         },
         {
-          period: "2012 - Настоящее время",
-          establishment: "Самозанятый",
+          period: "2001 г.- 2005 г.",
+          establishment:
+            "Проектно-изыскательская экспедиция Российской академии сельскохозяйственных наук, инженер.",
         },
       ],
     },
@@ -79,7 +75,7 @@ const myProfile = {
     contacts: {
       title: "Contacts",
       tel: "+7(967)321-32-91",
-      whatsapp: "+7(967)321-32-91",
+      telegram: "https://t.me/Constantin_CK",
       mail: "Constantin_CK@outlook.com",
       git: "https://github.com/ConstCK",
     },
@@ -89,23 +85,18 @@ const myProfile = {
     },
     coding_skills: {
       title: "Coding skills",
-      content: ["Python", "JavaScript", "HTML", "CSS"],
+      content: ["Python", "JavaScript", "HTML", "CSS", "SQL"],
     },
     coding_details: {
       title: "Coding skills details",
       content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
     },
-    app_skills: {
-      title: "Application usage",
-      content: ["Microsoft Office", "Autocad", "Adobe Photoshop"],
-    },
     education: {
       title: "Education",
       info: [
         {
-          period: "1993 - 1998 ",
-          establishment:
-            "Sochi Univercity Of Recreation And Tourism, 'World economy' speciality.",
+          period: "2022 - 2023 ",
+          establishment: "SkillFactory courses, Fullstack Python developer.",
         },
         {
           period: "1998 - 2000 ",
@@ -113,8 +104,9 @@ const myProfile = {
             "Europa College, Nicosia, Cyprus, 'Hotel Management' speciality.",
         },
         {
-          period: "2022 - 2023 ",
-          establishment: "SkillFactory courses, Fullstack Python developer.",
+          period: "1993 - 1998 ",
+          establishment:
+            "Sochi Univercity Of Recreation And Tourism, 'World economy' speciality.",
         },
       ],
     },
@@ -122,17 +114,17 @@ const myProfile = {
       title: "Employment history",
       info: [
         {
-          period: "2001 - 2005 ",
-          establishment:
-            "Project&Recearch expedition of Russian Academy of Agricultural Sciences, engineer.",
+          period: "2012 - Current time",
+          establishment: "Self projects development",
         },
         {
           period: "2005 - 2012 ",
           establishment: "ООО «КАВКАЗЗЕМПРОЕКТ», director.",
         },
         {
-          period: "2012 - Current time",
-          establishment: "Self-employed",
+          period: "2001 - 2005 ",
+          establishment:
+            "Project&Recearch expedition of Russian Academy of Agricultural Sciences, engineer.",
         },
       ],
     },

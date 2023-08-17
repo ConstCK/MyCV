@@ -4,7 +4,7 @@ import store from "../redux/store";
 import myProfile from "../data/constants";
 
 import tel from "../assets/images/Telephone-icon.png";
-import whatsApp from "../assets/images/Whatsapp-icon.png";
+import telegram from "../assets/images/Telegram-icon.png";
 import mail from "../assets/images/Mail-icon.png";
 import git from "../assets/images/Git-icon.png";
 
@@ -14,6 +14,7 @@ function Contacts() {
   const [containerClass, setContainerClass] = useState("sidebar-container");
   let myContact = myProfile[currentLanguage].contacts.title;
   let myNumber = myProfile[currentLanguage].contacts.tel;
+  let myTelegram = myProfile[currentLanguage].contacts.telegram;
   let myMail = myProfile[currentLanguage].contacts.mail;
   let myGit = myProfile[currentLanguage].contacts.git;
 
@@ -41,19 +42,35 @@ function Contacts() {
       <div className={containerClass}>
         <div className="contact">
           <img className="icons" src={tel} alt="My telephone" />
-          <div className="contact-details">{myNumber}</div>
+          <a
+            className="contact-details"
+            href={`tel: ${myNumber}`}
+            target="_blank"
+          >
+            {myNumber}
+          </a>
         </div>
         <div className="contact">
-          <img className="icons" src={whatsApp} alt="My whatsapp" />
-          <div className="contact-details">{myNumber}</div>
+          <img className="icons" src={telegram} alt="My telegram" />
+          <a className="contact-details" href={myTelegram} target="_blank">
+            {myTelegram}
+          </a>
         </div>
         <div className="contact">
           <img className="icons" src={mail} alt="My mail" />
-          <div className="contact-details">{myMail}</div>
+          <a
+            className="contact-details"
+            href={`mailto: ${myMail}`}
+            target="_blank"
+          >
+            {myMail}
+          </a>
         </div>
         <div className="contact">
           <img className="icons" src={git} alt="My git" />
-          <div className="contact-details">{myGit}</div>
+          <a className="contact-details" href={myGit} target="_blank">
+            {myGit}
+          </a>
         </div>
       </div>
     </div>

@@ -6,10 +6,17 @@
 
 .contact {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.contact a {
+    color: white;
 }
 
 .contact-details {
-    margin: 1.2rem 0 0 0.2rem;
+    margin: 0 0 0 0.4rem;
 }
 
 @media (min-width:768px) and (max-width: 991px) {

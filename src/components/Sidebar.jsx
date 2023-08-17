@@ -23,7 +23,7 @@ function Sidebar() {
       <Languages />
       <SkillsInfoBlock data={MyCodingSkills} />
       <SkillsInfoBlock data={MySkillsDetails} />
-      <SkillsInfoBlock data={MyAppSkills} />
+      {/* <SkillsInfoBlock data={MyAppSkills} /> */}
     </div>
   );
 }
