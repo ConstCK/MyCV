@@ -15,6 +15,10 @@
     color: white;
 }
 
+.contact a:hover {
+    color: aqua;
+}
+
 .contact-details {
     margin: 0 0 0 0.4rem;
 }

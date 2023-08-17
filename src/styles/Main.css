@@ -48,13 +48,11 @@
     margin: 0 2rem;
     max-height: 100%;
     transition: all 0.7s ease-in-out;
-
 }
 
 .hidden {
     max-height: 0;
     overflow: hidden;
-
 }
 
 .main-info-cell {
@@ -87,4 +85,9 @@ button:active {
     border-radius: 50%;
     border: solid 2px;
     box-shadow: 0.2rem 0.1rem rgb(16, 16, 16);
+}
+
+.bold {
+    font-weight: bolder;
+    text-decoration: underline;
 }

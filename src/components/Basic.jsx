@@ -9,6 +9,7 @@ function Basic() {
   let myInfo = myProfile[currentLanguage].main_info;
   let myHome = myProfile[currentLanguage].residence;
   let myAge = myProfile[currentLanguage].age;
+  let myShift = myProfile[currentLanguage].shift;
 
   function hide() {
     if (headerClass == "main-header active") {
@@ -33,6 +34,7 @@ function Basic() {
         {myInfo}
       </h2>
       <div className={containerClass}>
+        <h3 className="main-info-cell bold">{myShift}</h3>
         <div className="main-info-cell">{myHome}</div>
         <div className="main-info-cell">{myAge}</div>
       </div>

@@ -4,6 +4,7 @@ const myProfile = {
     main_info: "Fullstack Python разработчик",
     residence: "Место проживания - Краснодарский край, г. Сочи.",
     age: "Возраст - 47 лет.",
+    shift: "Удаленный формат работы",
     contacts: {
       title: "Контакты",
       tel: "+7(967)321-32-91",
@@ -19,6 +20,26 @@ const myProfile = {
     coding_details: {
       title: "Детали",
       content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
+    },
+    projects: {
+      title: "Проекты в разработке",
+      info: [
+        {
+          name: "Эмулятор игрового автомата из 90х годов.",
+          techs: "-React, Redux",
+          link: "https://github.com/ConstCK/Poker-Machine.git",
+        },
+        {
+          name: "Совместный проект на курсе SkillFactory (реальный кейс). Веб-приложение для проверки контрагентов.",
+          techs: "-React, Redux, React Router",
+          link: "https://github.com/ConstCK/SkillFactory-CooperativeProject-SCAN.git",
+        },
+        {
+          name: "Дипломная работа на курсе SkillFactory (реальный кейс). Веб-сервис для учета складской техники.",
+          techs: "-React, React Router, Django, Django Rest Framework",
+          link: "https://github.com/ConstCK/SkillFactory-DiplomaProject.git",
+        },
+      ],
     },
     education: {
       title: "Образование",
@@ -61,10 +82,9 @@ const myProfile = {
       title: "О себе",
       content:
         "Программированием увлекаюсь с юношеских лет и, несмотря на отсутствия опыта\
-        работы в этой сфере, надеюсь получить должность Junior разработчика в IT\
-        компании.У меня есть огромное желание работать в качестве программиста и\
-        получать новые знания.Имеется небольшой опыт системного администрирования.\
-        Буду рад получить полную занятость на удаленной работе.",
+        работы в этой сфере, надеюсь получить должность разработчика в IT\
+        компании. Большинство свободного времени трачу на чтение книг и просмотр скринкастов\
+         о програмировании.Имеется небольшой опыт системного администрирования.",
     },
   },
   en: {
@@ -72,6 +92,7 @@ const myProfile = {
     main_info: "Fullstack Python developer",
     residence: "Place of residence - Krasnodar region, city of Sochi.",
     age: "Age - 47 years old.",
+    shift: "Remote work",
     contacts: {
       title: "Contacts",
       tel: "+7(967)321-32-91",
@@ -90,6 +111,26 @@ const myProfile = {
     coding_details: {
       title: "Coding skills details",
       content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
+    },
+    projects: {
+      title: "Projects in development",
+      info: [
+        {
+          name: "Slot machine emulator from the past.",
+          techs: "-React, Redux",
+          link: "https://github.com/ConstCK/Poker-Machine.git",
+        },
+        {
+          name: "Cooperative project on SkillFactory course (real case). Web application of companies reputation gathering.",
+          techs: "-React, Redux, React Router",
+          link: "https://github.com/ConstCK/SkillFactory-CooperativeProject-SCAN.git",
+        },
+        {
+          name: "Diploma project on SkillFactory course (real case). Web service for accounting of warehouse equipment.",
+          techs: "-React, React Router, Django, Django Rest Framework",
+          link: "https://github.com/ConstCK/SkillFactory-DiplomaProject.git",
+        },
+      ],
     },
     education: {
       title: "Education",
@@ -132,9 +173,9 @@ const myProfile = {
       title: "Personal info",
       content:
         "I am fond of coding since teenaging and despite the lack of programming\
-        experience i hope to get a position of Junior developer in IT company.\
-        I have a biggest desire to gain new knowledge and be useful as a coder.\
-        Also i have a little experience of system adninistration. I will be\
+        experience i hope to get a position developer in IT company.\
+        The majority of free time I spend for reading books and screencast watching.\
+        about coding. Also i have a little experience of system adninistration. I will be\
         glad to get get a full time job remotely.",
     },
   },

@@ -4,6 +4,7 @@ import myProfile from "../data/constants";
 import store from "../redux/store";
 import Basic from "./Basic.jsx";
 import MainInfoBlock from "./MainInfoBlock.jsx";
+import ProjectsBlock from "./ProjectsBlock.jsx";
 import About from "./About.jsx";
 
 function Main() {
@@ -11,6 +12,7 @@ function Main() {
 
   let myEducation = myProfile[currentLanguage].education;
   let myJob = myProfile[currentLanguage].job;
+  let myProjects = myProfile[currentLanguage].projects;
 
   const changeLanguage = () => {
     return store.dispatch({ type: "CHANGE_LANGUAGE" });
@@ -28,6 +30,7 @@ function Main() {
         </button>
       </div>
       <Basic />
+      <ProjectsBlock data={myProjects} />
       <MainInfoBlock data={myEducation} />
       <MainInfoBlock data={myJob} />
       <About />
