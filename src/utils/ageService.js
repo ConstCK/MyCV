@@ -8,7 +8,7 @@ if (today.getMonth() < birth.getMonth()) {
     console.log('wow')
 }
 
-const getAge = function (birthdate = new Date(1975, 10, 9)) {
+const getAge = function (birthdate = new Date(1975, 10, 11)) {
     let today = new Date();
     let birth = birthdate;
     let age = today.getFullYear() - birth.getFullYear()
@@ -17,7 +17,8 @@ const getAge = function (birthdate = new Date(1975, 10, 9)) {
     } else if (today.getMonth() == birth.getMonth() && today.getDate() < birth.getDate()) {
         age = age - 1
     }
-
+    console.log(today.getDate())
+    console.log(birth.getDate())
     return age
 }
 
