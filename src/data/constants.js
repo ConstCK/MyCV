@@ -1,9 +1,11 @@
+import { getAge } from "../utils/ageService.js"
+let age = getAge()
 const myProfile = {
   ru: {
     name: "Константин Капаневс",
     main_info: "Fullstack Python разработчик",
     residence: "Место проживания - Краснодарский край, г. Сочи.",
-    age: "Возраст - 47 лет.",
+    age: `Возраст - ${age} лет.`,
     shift: "Удаленный формат работы",
     contacts: {
       title: "Контакты",
@@ -19,25 +21,35 @@ const myProfile = {
     },
     coding_details: {
       title: "Детали",
-      content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
+      content: ["Django", "DRF", "FastAPI", "Celery", "Redis", "Aiogram", "React", "Vue", "Redux", "Git", "Docker"],
     },
     projects: {
       title: "Проекты в разработке",
       info: [
         {
-          name: "Эмулятор игрового автомата из 90х годов.",
+          name: "Эмулятор игрового автомата из 90х годов (Пет-проект).",
           techs: "-React, Redux",
           link: "https://github.com/ConstCK/Poker-Machine.git",
         },
         {
-          name: "Совместный проект на курсе SkillFactory (реальный кейс). Веб-приложение для проверки контрагентов.",
+          name: "Совместный проект на курсе SkillFactory. Веб-приложение для проверки контрагентов (Реальный кейс).",
           techs: "-React, Redux, React Router",
           link: "https://github.com/ConstCK/SkillFactory-CooperativeProject-SCAN.git",
         },
         {
-          name: "Дипломная работа на курсе SkillFactory (реальный кейс). Веб-сервис для учета складской техники.",
+          name: "Дипломная работа на курсе SkillFactory. Веб-сервис для учета складской техники (Реальный кейс).",
           techs: "-React, React Router, Django, Django Rest Framework",
           link: "https://github.com/ConstCK/SkillFactory-DiplomaProject.git",
+        },
+        {
+          name: "Приложение для учета семейного бюджета (Пет проект).",
+          techs: "-Vue, Vuex, Vue-Router, Django, Django Rest Framework",
+          link: "https://github.com/ConstCK/My-Budget.git",
+        },
+        {
+          name: "Telegram бот с планировщиком задач (Пет проект).",
+          techs: "-Aiogram, SQLAlchemy, Apscheduler",
+          link: "https://github.com/ConstCK/My-ToDo-TelegramBot.git",
         },
       ],
     },
@@ -74,24 +86,23 @@ const myProfile = {
         {
           period: "2001 г.- 2005 г.",
           establishment:
-            "Проектно-изыскательская экспедиция Российской академии сельскохозяйственных наук, инженер.",
+            "«Проектно-изыскательская экспедиция Российской академии сельскохозяйственных наук», инженер.",
         },
       ],
     },
     about: {
       title: "О себе",
       content:
-        "Программированием увлекаюсь с юношеских лет и, несмотря на отсутствия опыта\
-        работы в этой сфере, надеюсь получить должность разработчика в IT\
-        компании. Большинство свободного времени трачу на чтение книг и просмотр скринкастов\
-         о програмировании.Имеется небольшой опыт системного администрирования.",
+        "Я самостоятельно изучаю Python с 2019 г., HTML, CSS, JS с 2020г.\
+         В 2023 г.Окончил курсы по специальности FullStack разработчик на Python.\
+         Хочу чтобы хобби превратилось в проыессию.",
     },
   },
   en: {
     name: "Constantin Kapanevs",
     main_info: "Fullstack Python developer",
     residence: "Place of residence - Krasnodar region, city of Sochi.",
-    age: "Age - 47 years old.",
+    age: `Age - ${age} years old.`,
     shift: "Remote work",
     contacts: {
       title: "Contacts",
@@ -110,7 +121,7 @@ const myProfile = {
     },
     coding_details: {
       title: "Coding skills details",
-      content: ["Django", "DRF", "Celery", "React", "Redux", "Git", "Docker"],
+      content: ["Django", "DRF", "FastAPI", "Celery", "Redis", "Aiogram", "React", "Vue", "Redux", "Git", "Docker"],
     },
     projects: {
       title: "Projects in development",
@@ -129,6 +140,16 @@ const myProfile = {
           name: "Diploma project on SkillFactory course (real case). Web service for accounting of warehouse equipment.",
           techs: "-React, React Router, Django, Django Rest Framework",
           link: "https://github.com/ConstCK/SkillFactory-DiplomaProject.git",
+        },
+        {
+          name: "Family budget control application (Pet project).",
+          techs: "-Vue, Vuex, Vue-Router, Django, Django Rest Framework",
+          link: "https://github.com/ConstCK/My-Budget.git",
+        },
+        {
+          name: "Task scheduler with Telegram bot Pet project).",
+          techs: "-Aiogram, SQLAlchemy, Apscheduler",
+          link: "https://github.com/ConstCK/My-ToDo-TelegramBot.git",
         },
       ],
     },
@@ -165,18 +186,16 @@ const myProfile = {
         {
           period: "2001 - 2005 ",
           establishment:
-            "Project&Recearch expedition of Russian Academy of Agricultural Sciences, engineer.",
+            "«Project&Recearch expedition of Russian Academy of Agricultural Sciences», engineer.",
         },
       ],
     },
     about: {
       title: "Personal info",
       content:
-        "I am fond of coding since teenaging and despite the lack of programming\
-        experience i hope to get a position developer in IT company.\
-        The majority of free time I spend for reading books and screencast watching.\
-        about coding. Also i have a little experience of system adninistration. I will be\
-        glad to get get a full time job remotely.",
+        "I have been studying Python on my own since 2019, HTML, CSS, JS since 2020. \
+        In 2023, I completed courses in the FullStack Python developer specialty. \
+        I want my hobby to turn into a profession.",
     },
   },
 };

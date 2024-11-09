@@ -26,7 +26,7 @@ function Main() {
     <div className="main">
       <div className="btn-container">
         <button onClick={changeLanguage}>
-          {currentLanguage == "en" ? "ru" : "en"}
+          {currentLanguage == "en" ? "en" : "ru"}
         </button>
       </div>
       <Basic />
